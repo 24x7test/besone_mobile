@@ -197,9 +197,32 @@
 	</script>
 
 	<link type="text/css" rel="stylesheet" href="shopimages/besone/template/work/24190/main.css?t=201708231642" />
-	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet"> -->
+	<!-- <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet"> -->
 	<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+
+	<style type="text/css">
+		@font-face {
+		  font-family: 'Lato';
+		  font-style: normal;
+		  font-weight: 400;
+		  src: url(./fonts/Lato-Regular.eot);
+		  src: url(./fonts/Lato-Regular.eot?#iefix) format('embedded-opentype'),
+		       url(./fonts/Lato-Regular.woff) format('woff'),
+		       url(./fonts/Lato-Regular.ttf) format('truetype');
+		}
+	</style>
+	<style type="text/css">
+		@font-face {
+		  font-family: 'PT Sans';
+		  font-style: normal;
+		  font-weight: 400;
+		  src: url(./fonts/PTSans-Regular.eot);
+		  src: url(./fonts/PTSans-Regular.eot?#iefix) format('embedded-opentype'),
+		       url(./fonts/PTSans-Regular.woff) format('woff'),
+		       url(./fonts/PTSans-Regular.ttf) format('truetype');
+		}
+	</style>
 
 	<style type="text/css">
 		@font-face {
@@ -374,7 +397,7 @@
 					<!-- �̹������ �ڽ� //-->
 					<div id="img_bann_box">
 						<a href="/m/product.html?branduid=595&xcode=009&mcode=002&scode=&type=Y&sort=regdate&cur_code=009002&GfDT=bmt0W1g%3D"><img class="lazy" data-src="design/besone/onedesign/mobile/images/m_mesh_cushion.png" alt="" /></a>
-						<a href="/m/product.html?branduid=597&xcode=009&mcode=002&scode=&type=Y&sort=regdate&cur_code=009002&GfDT=bm99W1w%3D"><img class="lazy" data-src="design/besone/onedesign/mobile/images/m_hairdryboosterhomepage2.jpg" alt="" /></a>
+						<a href="/m/product.html?branduid=597&xcode=009&mcode=002&scode=&type=Y&sort=regdate&cur_code=009002&GfDT=bm99W1w%3D"><img class="lazy" data-src="design/besone/onedesign/mobile/images/m_hairdry_hp.jpg" alt="" /></a>
 					</div><!--// #img_bann_box -->
 					<!--// �̹������ �ڽ� -->
 
@@ -695,7 +718,8 @@
 		    $.ajax({
 		        type: 'POST',
 		        dataType: 'json',
-		        url: '/html/user_basket_quantity.html',
+		        // url: '/html/user_basket_quantity.html',
+		        url: '',
 		        data :{ 'IS_UNIFY_OPT': "true" }, 
 		        success: function(res) {                                                                                        
 		            var _user_basket_quantity = res.user_basket_quantity || 0;
@@ -848,7 +872,7 @@
 		    return false;
 		}
 	</script>
-	<div id="MAKESHOPLY0" style="position:fixed !important;bottom:1px;left: 0px; width: 300px; height: 400px; background: white;; z-index: 100; display: none; overflow: hidden; ">
+	<div id="MAKESHOPLY0" style="position:fixed !important; top: 25%; left: 50%; margin-left: -150px; width: 300px; height: 323px!important; background: white; z-index: 100; display: none; overflow: hidden; ">
 	  <div class="event_inner" style="width: 100%; height: 100%; " >
 	    <form name="frm_event" method="post" action="/html/event.html?db=besone&display=0" style="display: inline;">
 	      <input type="hidden" name="type" value="close" />
