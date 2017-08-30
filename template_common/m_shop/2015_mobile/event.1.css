@@ -1,0 +1,13 @@
+/* BASIC css start */
+#popup-event.type-01 { background-color: #E1E0DF; padding : 5px; }
+#popup-event.type-01 dt { text-align: center; }
+#popup-event.type-01 dt span { display:block;  font-weight:bold;}
+#popup-event.type-01 dt img { max-width:100%; }
+#popup-event.type-01 dt img#pop_img { max-width: 100%; }
+#popup-event.type-01 dd { line-height: 23px; position: relative; overflow: hidden; zoom: 1; }
+#popup-event.type-01 dd a.btn-white1 { margin-left: 3px; margin-top: 5px; font-size: 1em; float: left; color: #8C8C8B; }
+#popup-event.type-01 dd a.btn-white2 { margin-right: 3px; margin-top: 5px; font-size: 1em; float: right; font-weight: bold; color: #8C8C8B; }
+#popup-event.type-01 dd img.checked { margin-left: 3px; margin-top: 5px; margin-right: 5px; width: 18px; height: 18px; }
+/* BASIC css end */
+
+
