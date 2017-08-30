@@ -1,0 +1,89 @@
+/* BASIC css start */
+/* ???? ????? ???? ??? */
+#MS_event .clearFix { overflow:visible !important;}
+#event .MS_img-wrap { position:relative; width:100%; overflow:hidden;}
+#event .event-imgs { position:relative; }
+#event .MS_img-area { float:left; }
+#event .MS_img-area:not(:first-child) { display:none; }
+#event .MS_img-area img { width:100%; }
+
+/* ???? ????? ???? ??? ??? ??ý */
+#event .pagination { position:absolute !important; bottom:15px; z-index:10; text-align:center; width:100%; cursor:pointer;}
+#event .pagination .swiper-pagination-switch { display: inline-block; margin: 0 4px; text-indent: -9999px; background: url(../../../../../design/besone/onedesign/mobile/images/btn_mainimg_off.png) no-repeat center center; background-size: 100% 100%; width:10px; height:10px; }
+#event .pagination .swiper-active-switch { background: url(../../../../../design/besone/onedesign/mobile/images/btn_mainimg_on.png) no-repeat center center; background-size: 100% 100%; width:10px; height:10px;}
+
+
+/* ???? Ÿ??? */
+.main_title h2 { margin:20px 0 5px; text-align:center; font-weight:normal; letter-spacing:0.05em; font-size:12px; line-height:43px; max-height:43px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+
+
+/* ???? ??? ??? ?????? ???? */
+#m_cont { padding: 5px; }
+
+
+/* ???????? ??? */
+#img_bann_box { width: 100%; height: auto; overflow: hidden; margin-bottom: 5px; }
+#img_bann_box img { width: 100%; height: auto; margin-bottom: 5px; }
+
+/* ?????? */
+#bann_photo_rv { width: 100%; height: auto; overflow: hidden; margin-bottom: 10px; }
+#bann_photo_rv ul { width: 100%; height: auto; overflow: hidden; }
+#bann_photo_rv li { float: left; width: 32%; height: auto; }
+#bann_photo_rv li.center_li { margin: 0 2%; }
+#bann_photo_rv li img { width: 100%; }
+
+/* ?????????? ??? */
+#bann_naver_post { width: 100%; height: auto; overflow: hidden; margin-bottom: 10px; }
+#bann_naver_post img { width: 100%; }
+
+/* ???? ??? ???? */
+#brand_ad_bann { width: 100%; height: auto; overflow: hidden; margin-bottom: 10px; }
+#brand_ad_bann img { width: 100%; }
+
+/* ????? ??? */
+#utube_box { width: 100%; height: auto; overflow: hidden; }
+
+/* ???Ÿ ??? */
+#insta_box  { width: 100%; height: auto; overflow: hidden; }
+#insta_box h2 img { max-width: 100%; }
+#insta_box > div { text-align: center; margin: 0 auto; width: 100%; }
+#insta_box .preview-wrap {margin:0px;}
+#insta_box #title > { position:relative; margin:0 auto; padding:80px 0; /*background:url('../images/common/content_exam.jpg') no-repeat center 140px;*/ text-align:center; }
+#insta_box #title > p.tit { margin-bottom:40px; text-align:left; }
+#insta_box #title > .mall-area .tit > span.name-l { font-weight:600; font-size:36px; text-transform:uppercase; }
+#insta_box #title > .mall-area .tit > span.name { font-weight:600; font-size:24px; text-transform:uppercase; }
+#insta_box #title > .mall-area .tit > span img { vertical-align:baseline; }
+#insta_box #title > .mall-area .tit > span { display:inline-block; *display:inline; zoom:1; padding:0 10px;}
+#insta_box #title > .mall-area p.tit-s { margin-top:5px; font-weight:bold; color:#125688; font-size:18px; letter-spacing:-0.7px; }
+#insta_box #title > .mall-area .round { display:inline-block; *display:inline; zoom:1; height:35px; line-height:35px; margin-top:20px; background:url('../images/common/bg_round_b2.png') no-repeat right top; }
+#insta_box #title > .mall-area .round span { display:inline-block; *display:inline; zoom:1; height:35px; line-height:35px; margin-right:18px; padding-left:18px; background:url('../images/common/bg_round_b.png') repeat-x left top; color:white; font-size:18px; font-weight:bold; }
+#insta_box A:link, A:visited {color: rgb(0, 102, 204);}
+#insta_box .grid ul li {
+	float: left;
+	text-align: center;
+	vertical-align: middle;
+	width: 20%;
+}
+#insta_box .grid ul li p.padding {
+	padding: 1px; /* ????????? ????*/
+}
+#insta_box .grid ul li.bg {
+	background: #; /* ?????? ?÷? ????*/
+	position:relative;
+}
+#insta_box .grid ul li.border img {/* ????? ???? ????*/
+}
+#insta_box .grid ul li p.thumb-size img {
+	width: 100%;
+	max-height:  82px; /* ????? ?????? ???? */
+}
+
+#insta_box .s-btn { position:absolute; right:10px; bottom:10px; }
+#insta_box .s-btn span { margin:0 1px; }
+
+
+
+
+/* BASIC css end */
+
+
